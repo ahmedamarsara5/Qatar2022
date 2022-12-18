@@ -1,0 +1,1219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdfdfd;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background: url("4.jpg") rgba(0, 0, 0, 0.253);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    background: none;
+}
+img{
+    height: 140px;
+    width: 240px;
+    cursor: pointer;
+    background: none;
+}
+.nav ul li{
+    justify-content: space-between;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+.nav ul li a::after{
+    content: '';
+    transition: 0.5s;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10;
+    display: block;
+    background-color:#16e6ff;
+}
+.nav ul li a:hover::after{
+    width: 100%;
+}
+.text{
+    align-items: center;
+    margin:auto;
+    margin-top: 14%;
+    display: block;
+    background: none;
+}
+.text h1{
+    text-align: center;
+    font-size: 62px;
+    color: #fff;
+    background: none;
+}
+.text p{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin: 1%;
+    background: none;
+}
+.btn{
+    display: inline-block;
+    border:#fff 1px solid;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin: 2% 43%;
+    padding: 10px 20px;
+    position: relative;
+    background: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #181717;
+    transition: 1s;
+}
+.section{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+}
+.sections{
+    background: white;
+}
+.sections h3{
+    color:#00cce4;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: 40px 10px 10px 10px;
+    cursor: pointer;
+    
+}
+.sections h3:hover{
+    color: #00a0b3;
+    font-size: 62px;
+    transition: 1.5s;
+
+}
+.section p{
+    box-sizing: border-box;
+    border: 1px solid #00cce4;
+    border-radius: 80px;
+    background-color: #00cce4;
+    color: #fff;
+    font-size: 14px;
+    height: 200px;
+    width: 330px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 80px;
+    text-align:justify;
+    text-align:center;
+}
+.section p:hover{
+    background-color:white ;
+    color: #00cce4;
+    border: #00cce4;
+    box-shadow: 0 0 20px 0px rgba(9, 198, 255, 0.75);
+    transition: 0.5s;
+}
+.contact{
+    align-items: right;
+    margin-left: 75%;
+    color: #fff;
+}
+.contact a{
+    text-decoration: none;
+    color: #fff;
+}
+.fab{
+    font-size: 40px;
+    text-align: right;
+    display: block;
+    justify-content: space-around;
+    margin:10px 20px 10px 20px;
+    border-radius: 50px;
+}
+.fab:hover{
+    box-shadow: 0 0 20px 0px rgba(255, 254, 254, 0.75);
+    font-size: 50px;
+    transition: 1s;
+}
+/* ------------section2------- */
+.teams{
+    width: 80%;
+    height: 20%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    display:flex;
+    justify-content: space-between;
+    background-color: #8A1538;
+    margin-top: 10%;
+    border-radius: 20%;
+    border: #18171781 solid 10px;
+}
+.teams h3{
+    color: #ffffff;
+    background-color: #8A1538;
+    font-size: 40px;
+    width: 10%;
+}
+.teams img{
+    width: 40%;
+    height: 10%;
+    border-radius:10%;
+}
+
+/* ------------------------------------------------------------ */
+.ads{
+    width: 80%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+/* ---------------section vedio------------------- */
+video{
+    height: 500px;
+    /* width: 1000px; */
+    align-items: center;
+    /* margin-bottom: 50px;
+    margin-left: 170px; */
+    width: 80%;
+    margin: 2% 10%;
+}
+/* --------------------------- */
+.server{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+/* --------------------------- */
+#panel, .flip {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #8A1538;
+    color: white;
+    border: solid 1px #181717;
+    margin: auto;
+  }
+  .flip{
+    width: 30%;
+    margin-top: 5%;
+  }
+  
+  #panel {
+    display: none;
+  }
+/* --------------------------- */
+#panel2, .flip2 {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #8A1538;
+    color: white;
+    border: solid 1px #181717;
+    margin: auto;
+  }
+  .flip2{
+    width: 30%;
+    margin-top: 5%;
+  }
+  
+  #panel2 {
+    display: none;
+  }
+/* --------------------------- */
+#panel3, .flip3 {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #8A1538;
+    color: white;
+    border: solid 1px #181717;
+    margin: auto;
+  }
+  .flip3{
+    width: 30%;
+    margin-top: 5%;
+  }
+  
+  #panel3 {
+    display: none;
+  }
+
+/* ---------------------mmobile------------------- */
+@media screen and (max-width:500px){
+    
+    .header{
+        height: 70vh;
+        width: 100%;
+    }
+    .nav  img{
+        height: 15vh;
+        width: 30%;
+    }
+    .text{
+        margin-top: 25%;
+        width: 90%;
+    }
+    .text h1{
+        font-size: 35px;
+        margin: 1%;
+    }
+    .text p{
+        font-size: 12px;
+        /* margin: 0.5%;/ */
+    }
+    .btn{
+        font-size: 12px;
+        width: 35%;
+        margin: 5% 28%;
+    }
+    /* ------------------- */
+    .section3{
+        width: 100%;
+    }
+    .row2{
+        display: block;
+        width: 90%;
+    }
+    .section3 h1{
+        font-size: 35px;
+    }
+    .col2{
+        height: 150px;
+        width: 100%;
+    }
+    .col2 h3{
+        font-size: 12px;
+    }
+    .col2 img{
+        height: 100px;
+        width: 100px;
+    }
+    /* ----------------------- */
+    .section2{
+        height: 110vh;
+        width: 100%;
+    }
+    .section2 h1{
+        font-size: 35px;
+        margin-bottom: 15%;
+    }
+    .row{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .col{
+        height: 250px;
+        width: 100%;
+    }
+    .col h3{
+        font-size: 12px;
+    }
+    .col p{
+        font-size: 12px;
+        
+    }
+    .col a{
+        font-size: 12px;
+    }
+    /* ---------------------- */
+    .section5{
+        width: 100%;
+    }
+    .section5 h1{
+        font-size: 35px;
+    }
+    .row5{
+        display: block;
+        width: 90%;
+        margin: 10% 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .col5{
+        margin: 20% 0;
+        width: 100%;
+    }
+    .col5 a{
+        font-size: 12px;
+    }
+    /* ------------------- */
+    .section4{
+        height: 110vh;
+        margin: 10% 0;
+    }
+    .row4{
+        display: block;
+        width: 100;
+        margin: 10% 0%;
+    }
+    .section4 h1{
+        font-size: 35px;
+    }
+    .col4{
+        height: 150px;
+        width: 100%;
+        display: block;
+        margin: 30% 0%;
+        align-items: center;
+
+    }
+    .col4 h3{
+        font-size: 12px;
+    }
+    .col4 img{
+        height: 100px;
+        width: 100px;
+        margin: 0 10%;
+    }
+    .col4 a{
+        font-size: 12px;
+        height: 4vh;
+        display: block;
+        margin: auto;
+    }
+    /* ------------------- */
+    video{
+        height: 150px;
+        width: 80%;
+        align-items: center;
+        margin:11% 10%;
+        
+    }
+    /* ---------------------- */
+    .section6{
+        width: 100%;
+        height: 70vh;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .row6{
+        width: 90%;
+        margin: 10% 5%;
+        height: 40vh;
+        display: block;
+        align-items: center;
+    }
+    .section6 h1{
+        font-size: 35px;
+    }
+    .col6{
+        height: 50px;
+        width: 20%;
+        margin: 5% 4%;
+    }
+    .col6 h3{
+        font-size: 12px;
+        background: none;
+        align-items: center;
+        text-align: center;
+    }
+    .col6 h2{
+        font-size: 12px;
+       
+    }
+    .col6 img{
+        height: 90px;
+        width: 80px;
+    }
+    .section6 a{
+        font-size: 14px;
+        display: block;
+        margin: auto;
+        width: 45%;
+        height: 2vh;
+        margin-top: 10%;
+        padding-left: 6%;
+    }
+    .section6 a:hover{
+        color:#181717;
+        background: #b94a3e;
+        height: 2vh;
+        width: 45%;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width:450px){
+    .header{
+        height: 65vh;
+        width: 100%;
+    }
+    .nav  img{
+        height: 15vh;
+        width: 30%;
+    }
+    .text{
+        margin-top: 25%;
+        width: 90%;
+    }
+    .text h1{
+        font-size: 30px;
+        margin: 1%;
+    }
+    .text p{
+        font-size: 10px;
+        /* margin: 0.5%;/ */
+    }
+    .btn{
+        font-size: 10px;
+        width: 35%;
+        margin: 5% 28%;
+    }
+    /* ------------------- */
+    .section3{
+        width: 100%;
+    }
+    .row2{
+        display: block;
+        width: 90%;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    .col2{
+        height: 150px;
+        width: 100%;
+    }
+    .col2 h3{
+        font-size: 11px;
+    }
+    .col2 img{
+        height: 100px;
+        width: 100px;
+    }
+    /* ----------------------- */
+    .section2{
+        height: 110vh;
+        width: 100%;
+    }
+    .section2 h1{
+        font-size: 30px;
+        margin-bottom: 15%;
+    }
+    .row{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .col{
+        height: 250px;
+        width: 100%;
+    }
+    .col h3{
+        font-size: 11px;
+    }
+    .col p{
+        font-size: 11px;
+        
+    }
+    .col a{
+        font-size: 11px;
+    }
+    /* ---------------------- */
+    .section5{
+        width: 100%;
+    }
+    .section5 h1{
+        font-size: 30px;
+    }
+    .row5{
+        display: block;
+        width: 90%;
+        margin: 10% 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .col5{
+        margin: 20% 0;
+        width: 100%;
+    }
+    .col5 a{
+        font-size: 11px;
+    }
+    /* ------------------- */
+    .section4{
+        height: 110vh;
+        margin: 10% 0;
+    }
+    .row4{
+        display: block;
+        width: 100;
+        margin: 10% 0%;
+    }
+    .section4 h1{
+        font-size: 30px;
+    }
+    .col4{
+        height: 150px;
+        width: 100%;
+        display: block;
+        margin: 30% 0%;
+        align-items: center;
+
+    }
+    .col4 h3{
+        font-size: 11px;
+    }
+    .col4 img{
+        height: 100px;
+        width: 100px;
+        margin: 0 10%;
+    }
+    .col4 a{
+        font-size: 12px;
+        height: 4vh;
+        display: block;
+        margin: auto;
+    }
+    /* ------------------- */
+    video{
+        height: 150px;
+        width: 80%;
+        align-items: center;
+        margin:11% 10%;
+        
+    }
+    /* ---------------------- */
+    .section6{
+        width: 100%;
+        height: 70vh;
+    }
+    .row6{
+        width: 90%;
+        margin: 10% 5%;
+        height: 40vh;
+        display: block;
+    }
+    .section6 h1{
+        font-size: 30px;
+    }
+    .col6{
+        height: 50px;
+        width: 20%;
+        margin: 5% 4%;
+    }
+    .col6 h3{
+        font-size: 11px;
+        background: none;
+        align-items: center;
+        text-align: center;
+    }
+    .col6 h2{
+        font-size: 11px;
+       
+    }
+    .col6 img{
+        height: 90px;
+        width: 80px;
+    }
+    .section6 a{
+        font-size: 14px;
+        display: block;
+        margin: auto;
+        width: 45%;
+        height: 2vh;
+        margin-top: 10%;
+        padding-left: 6%;
+    }
+    .section6 a:hover{
+        color:#181717;
+        background: #b94a3e;
+        height: 2vh;
+        width: 45%;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width:400px){
+    .header{
+        height: 65vh;
+        width: 100%;
+    }
+    .nav  img{
+        height: 15vh;
+        width: 30%;
+    }
+    .text{
+        margin-top: 25%;
+        width: 90%;
+    }
+    .text h1{
+        font-size: 30px;
+        margin: 1%;
+    }
+    .text p{
+        font-size: 10px;
+        /* margin: 0.5%;/ */
+    }
+    .btn{
+        font-size: 10px;
+        width: 35%;
+        margin: 5% 28%;
+    }
+    /* ------------------- */
+    .section3{
+        width: 100%;
+    }
+    .row2{
+        display: block;
+        width: 90%;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    .col2{
+        height: 150px;
+        width: 100%;
+    }
+    .col2 h3{
+        font-size: 11px;
+    }
+    .col2 img{
+        height: 100px;
+        width: 100px;
+    }
+    /* ----------------------- */
+    .section2{
+        height: 110vh;
+        width: 100%;
+    }
+    .section2 h1{
+        font-size: 30px;
+        margin-bottom: 15%;
+    }
+    .row{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .col{
+        height: 250px;
+        width: 100%;
+    }
+    .col h3{
+        font-size: 11px;
+    }
+    .col p{
+        font-size: 11px;
+        
+    }
+    .col a{
+        font-size: 11px;
+    }
+    /* ---------------------- */
+    .section5{
+        width: 100%;
+    }
+    .section5 h1{
+        font-size: 30px;
+    }
+    .row5{
+        display: block;
+        width: 90%;
+        margin: 10% 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .col5{
+        margin: 20% 0;
+        width: 100%;
+    }
+    .col5 a{
+        font-size: 11px;
+    }
+    /* ------------------- */
+    .section4{
+        height: 110vh;
+        margin: 10% 0;
+    }
+    .row4{
+        display: block;
+        width: 100;
+        margin: 10% 0%;
+    }
+    .section4 h1{
+        font-size: 30px;
+    }
+    .col4{
+        height: 150px;
+        width: 100%;
+        display: block;
+        margin: 30% 0%;
+        align-items: center;
+
+    }
+    .col4 h3{
+        font-size: 11px;
+    }
+    .col4 img{
+        height: 100px;
+        width: 100px;
+        margin: 0 10%;
+    }
+    .col4 a{
+        font-size: 12px;
+        height: 4vh;
+        display: block;
+        margin: auto;
+    }
+    /* ------------------- */
+    video{
+        height: 150px;
+        width: 80%;
+        align-items: center;
+        margin:11% 10%;
+        
+    }
+    /* ---------------------- */
+    .section6{
+        width: 100%;
+        height: 70vh;
+    }
+    .row6{
+        width: 90%;
+        margin: 10% 5%;
+        height: 40vh;
+        display: block;
+    }
+    .section6 h1{
+        font-size: 30px;
+    }
+    .col6{
+        height: 50px;
+        width: 20%;
+        margin: 5% 4%;
+    }
+    .col6 h3{
+        font-size: 11px;
+        background: none;
+        align-items: center;
+        text-align: center;
+    }
+    .col6 h2{
+        font-size: 11px;
+       
+    }
+    .col6 img{
+        height: 90px;
+        width: 80px;
+    }
+    .section6 a{
+        font-size: 12px;
+        display: block;
+        margin: auto;
+        width: 45%;
+        height: 2vh;
+        margin-top: 10%;
+    }
+    .section6 a:hover{
+        color:#181717;
+        background: #b94a3e;
+        height: 2vh;
+        width: 45%;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width:350px){
+    .header{
+        height: 60vh;
+        width: 100%;
+    }
+    .nav  img{
+        height: 15vh;
+        width: 30%;
+    }
+    .text{
+        margin-top: 25%;
+        width: 90%;
+    }
+    .text h1{
+        font-size: 30px;
+        margin: 1%;
+    }
+    .text p{
+        font-size: 10px;
+        /* margin: 0.5%;/ */
+    }
+    .btn{
+        font-size: 10px;
+        width: 35%;
+        margin: 5% 28%;
+    }
+    /* ------------------- */
+    .section3{
+        width: 100%;
+    }
+    .row2{
+        display: block;
+        width: 90%;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    .col2{
+        height: 150px;
+        width: 100%;
+    }
+    .col2 h3{
+        font-size: 11px;
+    }
+    .col2 img{
+        height: 100px;
+        width: 100px;
+    }
+    /* ----------------------- */
+    .section2{
+        height: 120vh;
+        width: 100%;
+    }
+    .section2 h1{
+        font-size: 30px;
+        margin-bottom: 15%;
+    }
+    .row{
+        display: block;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+    .col{
+        height: 250px;
+        width: 100%;
+    }
+    .col h3{
+        font-size: 11px;
+    }
+    .col p{
+        font-size: 11px;
+        
+    }
+    .col a{
+        font-size: 11px;
+    }
+    /* ---------------------- */
+    .section5{
+        width: 100%;
+    }
+    .section5 h1{
+        font-size: 30px;
+    }
+    .row5{
+        display: block;
+        width: 90%;
+        margin: 10% 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .col5{
+        margin: 20% 0;
+        width: 100%;
+    }
+    .col5 a{
+        font-size: 11px;
+    }
+    /* ------------------- */
+    .section4{
+        height: 110vh;
+        margin: 10% 0;
+    }
+    .row4{
+        display: block;
+        width: 100;
+        margin: 10% 0%;
+    }
+    .section4 h1{
+        font-size: 30px;
+    }
+    .col4{
+        height: 150px;
+        width: 100%;
+        display: block;
+        margin: 30% 0%;
+        align-items: center;
+
+    }
+    .col4 h3{
+        font-size: 11px;
+    }
+    .col4 img{
+        height: 100px;
+        width: 100px;
+        margin: 0 10%;
+    }
+    .col4 a{
+        font-size: 12px;
+        height: 4vh;
+        display: block;
+        margin: auto;
+    }
+    /* ------------------- */
+    video{
+        height: 150px;
+        width: 80%;
+        align-items: center;
+        margin:11% 10%;
+    }
+    /* ---------------------- */
+    .section6{
+        width: 100%;
+        height: 70vh;
+    }
+    .row6{
+        width: 90%;
+        margin: 10% 5%;
+        height: 40vh;
+        display: block;
+    }
+    .section6 h1{
+        font-size: 30px;
+    }
+    .col6{
+        height: 50px;
+        width: 20%;
+        margin: 5% 4%;
+    }
+    .col6 h3{
+        font-size: 11px;
+        background: none;
+        align-items: center;
+        text-align: center;
+    }
+    .col6 h2{
+        font-size: 11px;
+       
+    }
+    .col6 img{
+        height: 90px;
+        width: 80px;
+    }
+    .section6 a{
+        font-size: 12px;
+        display: block;
+        margin: auto;
+        width: 45%;
+        height: 2vh;
+        margin-top: 10%;
+    }
+    .section6 a:hover{
+        color:#181717;
+        background: #b94a3e;
+        height: 2vh;
+        width: 45%;
+    }
+}
+/* ---------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------- */
+@media screen and (max-width:300px){
+    .header{
+        height: 55vh;
+        width: 100%;
+    }
+    .nav  img{
+        height: 15vh;
+        width: 35%;
+    }
+    .text{
+        margin-top: 30%;
+        width: 90%;
+    }
+    .text h1{
+        font-size: 30px;
+        margin: 1%;
+    }
+    .text p{
+        font-size: 10px;
+        /* margin: 0.5%;/ */
+    }
+    .btn{
+        font-size: 10px;
+        width: 30%;
+        margin: 5% 28%;
+    }
+    /* ------------------- */
+    .row2{
+        display: block;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    .col2{
+        height: 150px;
+    }
+    .col2 h3{
+        font-size: 11px;
+    }
+    .col2 img{
+        height: 100px;
+        width: 100px;
+    }
+    /* ----------------------- */
+    .section2{
+        height: 120vh;
+        width: 100%;
+    }
+    .section2 h1{
+        font-size: 30px;
+    }
+    .row{
+        display: block;
+        width: 90%;
+        margin: 15% 1%;
+    }
+    .col{
+        height: 250px;
+        margin: 5%;
+    }
+    .col h3{
+        font-size: 11px;
+    }
+    .col p{
+        font-size: 11px;
+        
+    }
+    .col a{
+        font-size: 11px;
+    }
+    /* ---------------------- */
+    .section5{
+        width: 100%;
+    }
+    .section5 h1{
+        font-size: 30px;
+    }
+    .row5{
+        display: block;
+        width: 90%;
+        margin: 10% 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .col5{
+        margin: 20% 0;
+        width: 100%;
+    }
+    .col5 a{
+        font-size: 11px;
+    }
+    /* ------------------- */
+    .section4{
+        height: 110vh;
+        margin: 10% 0;
+    }
+    .row4{
+        display: block;
+        width: 100;
+        margin: 10% 0%;
+    }
+    .section4 h1{
+        font-size: 30px;
+    }
+    .col4{
+        height: 150px;
+        width: 100%;
+        display: block;
+        margin: 30% 0%;
+        align-items: center;
+
+    }
+    .col4 h3{
+        font-size: 11px;
+    }
+    .col4 img{
+        height: 100px;
+        width: 100px;
+        margin: 0 10%;
+    }
+    .col4 a{
+        font-size: 12px;
+        height: 4vh;
+        display: block;
+        margin: auto;
+    }
+    /* ------------------- */
+    video{
+        height: 130px;
+        width: 80%;
+        align-items: center;
+        margin: 11% 10%;
+    }
+    /* ---------------------- */
+    .section6{
+        width: 100%;
+        height: 70vh;
+    }
+    .row6{
+        width: 90%;
+        margin: 10% 5%;
+        height: 40vh;
+        display: block;
+    }
+    .section6 h1{
+        font-size: 30px;
+    }
+    .col6{
+        height: 50px;
+        width: 20%;
+        margin: 5% 4%;
+    }
+    .col6 h3{
+        font-size: 11px;
+        background: none;
+        align-items: center;
+        text-align: center;
+    }
+    .col6 h2{
+        font-size: 11px;
+       
+    }
+    .col6 img{
+        height: 90px;
+        width: 80px;
+    }
+    .section6 a{
+        font-size: 10px;
+        display: block;
+        margin: auto;
+        width: 45%;
+        height: 2vh;
+        margin-top: 10%;
+    }
+    .section6 a:hover{
+        color:#181717;
+        background: #b94a3e;
+        height: 2vh;
+        width: 45%;
+    }
+}
